@@ -1,7 +1,3 @@
-
-
-
-
 library(datasets)
 data(mtcars)
 my_data <- mtcars

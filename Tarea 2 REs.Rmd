@@ -1,7 +1,13 @@
+---
+title: "Tarea 2"
+author: "Silvana Morocho"
+date: "`r Sys.Date()`"
+output: html_document
+---
 
 
 
-
+```{r}
 library(datasets)
 data(mtcars)
 my_data <- mtcars
@@ -65,3 +71,10 @@ test_that("my_ggplot function returns an error when given an incorrect x variabl
 
 test_that("my_ggplot function returns an error when given an incorrect y variable",
           expect_error(my_ggplot(my_data, "cyl", "abc")))
+
+
+
+```
+
+
+
